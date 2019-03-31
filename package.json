@@ -1,0 +1,22 @@
+{
+  "name": "projectgenerator",
+  "version": "1.0.0",
+  "description": "A project to generate other projects",
+  "main": "index.js",
+  "bin": {
+    "generate": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Project",
+    "Generator"
+  ],
+  "author": "bayeslife",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "inquirer": "^6.2.2"
+  }
+}
