@@ -20,3 +20,4 @@ $ generate
 ## How to add more templates
 
 Create another directory under templates
+Use handlebars escaping ``{{ key }}``` to interpolate values into the template.
