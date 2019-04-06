@@ -1,0 +1,14 @@
+{
+  "name": "short-interval-control",
+  "version": "1.0.0",
+  "description": "## Short Interval Control",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/docsify-cli/bin/docsify serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.3.0"
+  }
+}
