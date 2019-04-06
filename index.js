@@ -33,7 +33,7 @@ inquirer.prompt(QUESTIONS)
     const projectName = answers['projectname'];
     const templatePath = `${__dirname}/templates/${projectChoice}`;
 
-    console.log(answers)
+    debug(answers)
 
     fs.mkdirSync(`${CURR_DIR}/${projectName}`);
 
