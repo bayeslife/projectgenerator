@@ -38,6 +38,9 @@ inquirer.prompt(QUESTIONS)
     fs.mkdirSync(`${CURR_DIR}/${projectName}`);
 
     function createDirectoryContents (templatePath, newProjectPath) {
+
+      debug(`create directory contents ${templatePath} ${newProjectPath}`)
+
       const filesToCreate = fs.readdirSync(templatePath);
 
       filesToCreate.forEach(file => {
@@ -46,6 +49,12 @@ inquirer.prompt(QUESTIONS)
         // get stats about the current file
         const stats = fs.statSync(origFilePath);
 
+        if (stats.isDirectory()) {
+          let dir = `${newProjectPath}/${file}`
+          debug(`create directory ${dir}`)
+          fs.mkdirSync(dir);
+          createDirectoryContents(origFilePath,dir)
+        }
         if (stats.isFile()) {
           debug(`Template from: ${origFilePath}`)
           const template = fs.readFileSync(origFilePath, 'utf8');
