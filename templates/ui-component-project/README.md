@@ -2,6 +2,8 @@
 
 This project is intended to publish a react component library project to npm along with an example to github pages. 
 
+It has unit test for the component based on [this](https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2)
+
 ## How to use
 
 ```
@@ -22,6 +24,12 @@ This builds the artefact which can be published to npm
 npm run build
 ```
 
+### To Test
+
+This test the components by rendering them can checking generated dom.
+```
+npm run test
+```
 
 ### To Deploy
 This deploys the artefact to git hubs page.
