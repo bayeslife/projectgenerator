@@ -1,7 +1,16 @@
-import React from 'react';
-//import './styles.css';
+import React, { useReducer } from 'react';
 
-const MyComponent = (props) => (
-  <h1>Hello {props.param}</h1>
-);
-export default MyComponent;
+
+import ClickComponent from './click-component';
+import { reducer, click } from './click-reducer';
+
+
+const ContainerComponent = () => {
+  const [clicks, dispatch] = useReducer(reducer, reducer());
+  return <ClickComponent
+    clicks={ clicks }
+    onClick={() => dispatch(click())}
+  />
+}
+
+export default ContainerComponent
