@@ -1,0 +1,371 @@
+[
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Levies Paid",
+  "amount": 20265.83,
+  "account": "working",
+  "type": "Levy"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Active Property Services-Dec-Cleaning",
+  "amount": -805,
+  "account": "working",
+  "type": "Building Management"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Active Property Services-Jan-Mgt",
+  "amount": -1495,
+  "account": "working",
+  "type": "Building Management"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Spark New Zealand Trading Ltd: 9/2-8/3/19",
+  "amount": -63.54,
+  "account": "working",
+  "type": "Lift Phone"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Mercury Energy: (Common Area)17/1-18/2/19",
+  "amount": -275.42,
+  "account": "working",
+  "type": "Electicity-Common"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Trustpower Limited: 28/12/18 Gas",
+  "amount": -898.42,
+  "account": "working",
+  "type": "Gas-Common"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Rubbish Direct(31/1/19)",
+  "amount": -487.04,
+  "account": "working",
+  "type": "Rubbish"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Insight Security -Access Control",
+  "amount": -60.56,
+  "account": "working",
+  "type": "Security"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Fire Control Services Limited -Annual Survey",
+  "amount": -943,
+  "account": "working",
+  "type": "Fire"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Fire Control Services Limited -Reinstated Detectors",
+  "amount": -181.12,
+  "account": "working",
+  "type": "Fire"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "AirTech Quarterly Maintenance",
+  "amount": -201.25,
+  "account": "working",
+  "type": "Ventilation"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Fire Control Services Limited- FireAlarm Testing",
+  "amount": -117.3,
+  "account": "working",
+  "type": "Fire"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Levy Income",
+  "amount": 2287.36,
+  "account": "working",
+  "type": "Levy"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Interest Income",
+  "amount": 63.62,
+  "account": "working",
+  "type": "Interest"
+ },
+ {
+  "date": "2019-02",
+  "year": 2019,
+  "month": 2,
+  "description": "Bank Fees (Strata 5% fee for admin of investment)",
+  "amount": -3.18,
+  "account": "working",
+  "type": "Bank"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Interest Income",
+  "amount": 11191.29,
+  "account": "working",
+  "type": "Interest"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Active Property Services-Cleaning Dec",
+  "amount": -805,
+  "account": "working",
+  "type": "Building Management"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Active Property Services-Dec",
+  "amount": -1495,
+  "account": "working",
+  "type": "Building Management"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Active Property Services-Consumables",
+  "amount": -41.94,
+  "account": "working",
+  "type": "Building Management"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Spark New Zealand Trading Ltd: 9/1-8/2/19",
+  "amount": -63.54,
+  "account": "working",
+  "type": "Lift Phone"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Mercury Energy: (Common Area)14/12/18-16/1/19",
+  "amount": -308.45,
+  "account": "working",
+  "type": "Electicity-Common"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Trustpower Limited: 28/12/18 Gas",
+  "amount": -800.51,
+  "account": "working",
+  "type": "Gas-Common"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Rubbish Direct(28/11/18)",
+  "amount": -487.04,
+  "account": "working",
+  "type": "Rubbish"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Watercare Services Ltd: 19/12/18-22/1/19",
+  "amount": -1109.42,
+  "account": "working",
+  "type": "Water"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Watercare (19/12/18)",
+  "amount": -1165.9,
+  "account": "working",
+  "type": "Water"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Insight Security Ltd t/a Insight EDS Ltd: 1/1/19",
+  "amount": -60.56,
+  "account": "working",
+  "type": "Security"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Ocean Plumbing Ltd(Car Park Leak): 30/11/18",
+  "amount": -133.4,
+  "account": "working",
+  "type": "Plumbing"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "ADT Fire Monitoring: 1/1-3/1/19",
+  "amount": -226.46,
+  "account": "working",
+  "type": "Fire"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Schindler Lifts NZ Ltd: 9/1/19 Annual IQP",
+  "amount": -373.75,
+  "account": "working",
+  "type": "Lift"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Schindler Lifts NZ Ltd: 1/3-31/5/19",
+  "amount": -1405.88,
+  "account": "working",
+  "type": "Lift"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Schindler Lifts NZ Ltd: 1/11/18  Replaced Lift Light",
+  "amount": -304.75,
+  "account": "working",
+  "type": "Lift"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Timely DoormanAutomatic Doors Service",
+  "amount": -546.66,
+  "account": "working",
+  "type": "Garage Door"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Levy Income",
+  "amount": 1263.12,
+  "account": "working",
+  "type": "Levy"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Interest Income",
+  "amount": 103.32,
+  "account": "working",
+  "type": "Interest"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Bank Fees (Strata 5% fee for admin of investment)",
+  "amount": -5.17,
+  "account": "working",
+  "type": "Bank"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Progressive Construction(No 14)",
+  "amount": -5825.41,
+  "account": "remedial",
+  "type": "Construction"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Insite Facades Ltd: 23/4/18 Claim 1 Remove Existing",
+  "amount": -379.5,
+  "account": "remedial",
+  "type": "Design"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Insite Facades Ltd: 23/11/18 Claim 2 Cladding to Stair",
+  "amount": -7926.79,
+  "account": "remedial",
+  "type": "Design"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Insite Facades Progress claim no. 3 ",
+  "amount": -51060.28,
+  "account": "remedial",
+  "type": "Design"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "ACH",
+  "amount": -540.5,
+  "account": "remedial",
+  "type": "Design"
+ },
+ {
+  "date": "2019-01",
+  "year": 2019,
+  "month": 1,
+  "description": "Affordable Scaffolding (2010) Ltd: 31/12/18",
+  "amount": -3767.1,
+  "account": "remedial",
+  "type": "Scaffolding"
+ }
+]

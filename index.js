@@ -46,6 +46,8 @@ inquirer.prompt(QUESTIONS)
       filesToCreate.forEach(file => {
         const origFilePath = `${templatePath}/${file}`;
 
+        debug(origFilePath)
+
         // get stats about the current file
         const stats = fs.statSync(origFilePath);
 
@@ -56,21 +58,32 @@ inquirer.prompt(QUESTIONS)
           createDirectoryContents(origFilePath,dir)
         }
         if (stats.isFile()) {
-          debug(`Template from: ${origFilePath}`)
-          const template = fs.readFileSync(origFilePath, 'utf8');
 
-          _.templateSettings.interpolate = /\{\{(.+?)\}\}/g;
-          // _.templateSettings = {
-          //   evaluate:    /\{\{(.+?)\}\}/g,
-          //   interpolate: /\{\{=(.+?)\}\}/g,
-          //   escape:      /\{\{-(.+?)\}\}/g
-          // };
-          var compiled = _.template(template)
+          if(origFilePath.indexOf('xlsx')>=0){
 
-          var generated = compiled(answers) //This incorporate the answers into the template
+            const writePath = `${CURR_DIR}/${newProjectPath}/${file}`;
 
-          const writePath = `${CURR_DIR}/${newProjectPath}/${file}`;
-          fs.writeFileSync(writePath, generated, 'utf8');
+            debug(`Copying from ${origFilePath} to ${writePath}`)
+            fs.copyFile(origFilePath, writePath, (err) => {
+              if (err) throw err;
+            });
+          }else {
+            debug(`Template from: ${origFilePath}`)
+            const template = fs.readFileSync(origFilePath, 'utf8');
+  
+            _.templateSettings.interpolate = /\{\{(.+?)\}\}/g;
+            // _.templateSettings = {
+            //   evaluate:    /\{\{(.+?)\}\}/g,
+            //   interpolate: /\{\{=(.+?)\}\}/g,
+            //   escape:      /\{\{-(.+?)\}\}/g
+            // };
+            var compiled = _.template(template)
+  
+            var generated = compiled(answers) //This incorporate the answers into the template
+  
+            const writePath = `${CURR_DIR}/${newProjectPath}/${file}`;
+            fs.writeFileSync(writePath, generated, 'utf8');
+          }
         }
       });
     }

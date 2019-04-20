@@ -9,7 +9,7 @@
     "watch": [
         "*.js",
         "*.jsx",
-        "src/"
+        "src/",
         "test/"
     ],
     "ext": "js,jsx,json, css, hbs"
