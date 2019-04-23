@@ -1,5 +1,10 @@
 # {{projectname}} React UI Component    
 
+## When to use this component
+
+Use this when .....
+
+## About this component
 This project is intended to publish a react component library project to npm along with an example to github pages. 
 
 It has unit test for the component based on [this](https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2)
