@@ -9,6 +9,8 @@ This project is intended to publish a react component library project to npm alo
 
 It has unit test for the component based on [this](https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2)
 
+The component will also have an example page in Observable which demonstrates how to include this component in observable.
+
 ## How to use
 
 ```
