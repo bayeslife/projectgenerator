@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "nwb serve-react-demo",
     "lint": "eslint --ext .jsx --ext .js --fix src test",
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run lint && npm run transpile",
@@ -22,6 +22,7 @@
   "author": "bayeslife",
   "license": "MIT",
   "devDependencies": {
+    "nwb": "^0.23.0",
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/polyfill": "^7.4.3",
