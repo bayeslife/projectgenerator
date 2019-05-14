@@ -1,0 +1,22 @@
+{
+  "name": "{{projectname}}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "builder run archetype:watch",
+    "test": "builder run archetype:test",
+    "build": "builder run archetype:build",
+    "lint": "builder run archetype:lint",
+    "watch": "builder run archetype:watch"
+  },
+  "author": "bayeslife",
+  "license": "MIT",
+  "dependencies": {
+    "short-interval-control-archetype-generator": "^1.0.3"
+  },
+  "devDependencies": {
+    "builder": "^4.0.0",
+    "short-interval-control-archetype-generator-dev": "^1.0.3"
+  }
+}
