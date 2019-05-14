@@ -13,7 +13,7 @@
   "author": "bayeslife",
   "license": "MIT",
   "dependencies": {
-    "short-interval-control-archetype-generator": "^1.0.3"
+    "short-interval-control-archetype-generator": "^1.0.4"
   },
   "devDependencies": {
     "builder": "^4.0.0",
