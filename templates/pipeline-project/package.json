@@ -1,0 +1,23 @@
+{
+  "name": "{{projectname}}",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "builder run archetype:lint && builder run archetype:build && builder run archetype:test",
+    "test": "builder run archetype:test",
+    "build": "builder run archetype:build",
+    "lint": "builder run archetype:lint"
+  },
+  "author": "bayeslife",
+  "license": "MIT",
+  "dependencies": {
+    "NotificationPipeline": "file:.yalc/NotificationPipeline",
+    "funprog": "^1.18.3",
+    "short-interval-control-archetype-lib-component": "^1.0.1"
+  },
+  "devDependencies": {
+    "builder": "^4.0.0",
+    "short-interval-control-archetype-lib-component-dev": "^1.0.1"
+  }
+}
