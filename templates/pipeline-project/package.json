@@ -12,9 +12,9 @@
   "author": "bayeslife",
   "license": "MIT",
   "dependencies": {
-    "NotificationPipeline": "file:.yalc/NotificationPipeline",
     "funprog": "^1.18.3",
-    "short-interval-control-archetype-lib-component": "^1.0.1"
+    "short-interval-control-archetype-lib-component": "^1.0.1",
+    "short-interval-control-pipeline-framework": "^1.0.3"
   },
   "devDependencies": {
     "builder": "^4.0.0",

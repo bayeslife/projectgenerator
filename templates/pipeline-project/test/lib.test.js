@@ -1,6 +1,6 @@
 import { describe } from 'riteway'
 
-import { pipelineFactory } from 'NotificationPipeline'
+import { pipelineFactory } from 'short-interval-control-pipeline-framework'
 import { generator, detector, consumer, subscriber, requestor, content } from '../index.js'
 
 describe('Library', async (assert) => {
