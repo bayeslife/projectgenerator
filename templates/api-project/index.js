@@ -1,5 +1,7 @@
 let debug = require('debug')('app')
 
+const assert = require('assert')
+
 const express = require('express');
 const app = express();
 
@@ -8,8 +10,11 @@ const swaggerUi = require('swagger-ui-express');
 
 const swaggerJSDoc = require('swagger-jsdoc')
 
-let config = {
-    port: 3000
+assert(process.env.ENVIRONMENT,"ENVIRONMENT needs to be defined")
+
+const config = {
+  env: process.env.ENVIRONMENT,
+  port: 3000
 }
 
 const options = {
@@ -25,7 +30,7 @@ const options = {
 
 const swaggerSpec = swaggerJSDoc(options);
  
-routes.setup(app)
+routes.setup(app,config)
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.listen(config.port, () => debug(`API listening on port ${config.port}!`))

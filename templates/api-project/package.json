@@ -1,44 +1,29 @@
 {
-  "name": "{{projectname}}",
-  "version": "1.0.0",
-  "description": "A api for ...",
+  "name": "MineQCoatesActivityService",
+  "version": "0.1.0",
+  "description": "A service which allows",
   "source": "index.js",
   "file": [
     "src",
     "index.js"
   ],
   "scripts": {
-    "build": "echo 'no build required for this common js backend'",
-    "lint": "eslint --fix src/* test/*",
-    "start": "./node_modules/.bin/nodemon --exec 'npm run lint && npm run test && node index.js'",
-    "test": "npm run build && npm run riteway",
-    "riteway": "riteway -r @babel/register -r @babel/polyfill test/**/*.test.js"
+    "start": "npm run lint && npm run build && npm run test && npm run serve",
+    "serve": "node -r @babel/register -r @babel/polyfill index.js",
+    "test": "builder run archetype:test",
+    "build": "echo 'nothing to do'",
+    "lint": "builder run archetype:lint",
+    "watch": "./node_modules/.bin/nodemon --exec 'npm run start'"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.com/"
-  },
-  "author": "bayeslife",
+  "author": "QuartileOne",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.4",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/register": "^7.4.4",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "nodemon": "^1.18.9",
-    "riteway": "^6.0.3"
+    "short-interval-control-archetype-lib-component-dev": "^1.0.1"
   },
   "dependencies": {
+    "builder": "^4.0.0",
     "express": "^4.16.4",
+    "short-interval-control-archetype-lib-component": "^1.0.1",
     "swagger-jsdoc": "^3.2.9",
     "swagger-ui-express": "^4.0.2"
   }

@@ -1,32 +1,27 @@
 let debug = require('debug')('app')
 
-module.exports.setup = function (app) {
+const appData = require('../package.json')
+
+module.exports.setup = function (app, config) {
     debug('Setup')
     /**
      * @swagger
      *
-     * /assets:
+     * /health:
      *   get:
-     *     description: Get assets for the application
+     *     description: Get health for the application
      *     produces:
      *       - application/json
      *     responses:
      *       200:
-     *         description: Get Assets
+     *         description: Get Health
      */
-    app.get('/assets', (req, res) => {
-        debug('GET assets')
-        res.send([
-            {
-                key: 'Asset1',
-                description: 'Asset One',
-                serialNumber: '1234'
-            },
-            {
-                key: 'Asset2',
-                description: 'Asset Two',
-                serialNumber: '1234'
-            }
-        ])
+    app.get('/health', (req, res) => {
+        debug('GET health')
+        res.send({
+                name: appData.name,
+                environment: config.env,
+                version: appData.version
+            })
     })
 }
