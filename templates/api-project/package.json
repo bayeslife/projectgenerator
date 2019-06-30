@@ -1,7 +1,7 @@
 {
-  "name": "MineQCoatesActivityService",
+  "name": "{{projectname}}",
   "version": "0.1.0",
-  "description": "A service which allows",
+  "description": "A service which allows ...",
   "source": "index.js",
   "file": [
     "src",

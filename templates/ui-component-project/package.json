@@ -13,7 +13,7 @@
   "author": "bayeslife",
   "license": "MIT",
   "dependencies": {
-    "short-interval-control-archetype-react-component": "^1.0.10"
+    "short-interval-control-archetype-react-component": "^1.0.11"
   },
   "devDependencies": {
     "builder": "^4.0.0",
