@@ -8,7 +8,6 @@
           "safari >= 7"
         ]
       }
-    ],
-    "@babel/preset-react"
+    ]
   ]
 }

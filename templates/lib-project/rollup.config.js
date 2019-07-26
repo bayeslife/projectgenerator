@@ -4,14 +4,14 @@ const sourcemap = true
 export default [{
     input,
     output: {
-        file: 'dist/{{projectname}}.mjs',
+        file: 'dist/short-interval-control-infrastructure.mjs',
         format: 'es',
         sourcemap
     }
 }, {
     input,
     output: {
-        file: 'dist/{{projectname}}.js',
+        file: 'dist/short-interval-control-infrastructure.js',
         format: 'cjs',
         sourcemap
     }
@@ -19,9 +19,9 @@ export default [{
 {
     input,
     output: {
-        file: 'dist/{{projectname}}.umd.js',
+        file: 'dist/short-interval-control-infrastructure.umd.js',
         format: 'umd',
-        name: '{{projectname}}',
+        name: 'short-interval-control-infrastructure',
         sourcemap
     }
 }]

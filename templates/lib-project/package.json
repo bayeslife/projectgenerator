@@ -1,7 +1,7 @@
 {
   "name": "{{projectname}}",
-  "version": "1.0.0",
-  "description": "A library for ...",
+  "version": "0.1.0",
+  "description": "A library providing ...",
   "source": "index.js",
   "main": "dist/{{projectname}}.umd.js",
   "module": "dist/{{projectname}}.mjs",
@@ -14,37 +14,23 @@
     "index.js"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "lint": "eslint --fix src test",
-    "start": "./node_modules/.bin/nodemon --exec 'npm run lint && npm run test'",
-    "test": "npm run build && npm run riteway",
-    "mocha": "./node_modules/.bin/mocha --require dist/{{projectname}}.umd.js",
-    "riteway": "riteway -r @babel/register -r @babel/polyfill test/**/*.test.js"
+    "watch": "nodemon --exec 'npm run test'",
+    "lint": "builder run archetype:lint",
+    "build": "echo 'Nothing to do'",
+    "test": "builder run archetype:test"
   },
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/"
   },
-  "author": "bayeslife",
+  "author": "Quartile One",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/register": "^7.4.0",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "nodemon": "^1.18.9",
-    "rollup": "^1.0.0",
-    "rollup-plugin-uglify": "^6.0.0"
+    "builder": "^4.0.0",
+    "short-interval-control-archetype-lib-component-dev": "^1.0.3"
   },
   "dependencies": {
+    "debug": "^4.1.1",
+    "short-interval-control-archetype-lib-component": "^1.0.5"
   }
 }

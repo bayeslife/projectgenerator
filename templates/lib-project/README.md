@@ -1,8 +1,15 @@
-# {{projectname}} Library    
+# {{projectname}} Library     
 
+## About
 
-## How to use
+...
+
+## Install
 
 ```
 npm install {{projectname}}
+yarn install {{projectname}}
 ```
+
+## How to use
+

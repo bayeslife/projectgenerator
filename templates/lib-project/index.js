@@ -1,2 +1,3 @@
-import Debug from 'debug'
-let debug = Debug('app')
+
+let infr = require('./src/infrastructure.js')
+module.exports = infr
